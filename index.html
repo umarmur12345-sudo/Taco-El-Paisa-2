@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taco El Paisa — Real Tacos. Real Flavor.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Taco El Paisa</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#hours">Hours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-pattern"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Brooklyn, NY · Open Until 2AM</p>
+      <h1 class="hero-title">Taco El Paisa</h1>
+      <p class="hero-tagline"><em>Real Tacos. Real Flavor.</em></p>
+      <a href="#menu" class="btn btn-primary">See Our Menu</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">Our Story</div>
+      <h2 class="section-title">Made Fresh.<br />Every Morning.</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">🫓</div>
+          <h3>Handmade Tortillas</h3>
+          <p>Pressed and cooked fresh every day — never frozen, never store-bought.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🔥</div>
+          <h3>Slow-Cooked Meats</h3>
+          <p>Marinated overnight and slow-cooked low and slow for maximum flavor.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🌿</div>
+          <h3>Fresh Salsas</h3>
+          <p>Made every morning from fire-roasted tomatoes, chiles, and fresh herbs.</p>
+        </div>
+      </div>
+      <p class="about-tagline">
+        Open late — <strong>7 days a week until 2AM.</strong>
+      </p>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu">
+    <div class="container">
+      <div class="section-label">What We Serve</div>
+      <h2 class="section-title">Our Menu</h2>
+
+      <div class="menu-categories">
+
+        <div class="menu-category">
+          <h3 class="category-title">
+            <span class="category-icon">🌮</span> Tacos
+          </h3>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <div class="item-info">
+                <span class="item-name">Taco al Pastor</span>
+                <span class="item-desc">Marinated pork, pineapple, cilantro, onion</span>
+              </div>
+              <span class="item-price">$4</span>
+            </li>
+            <li class="menu-item">
+              <div class="item-info">
+                <span class="item-name">Taco de Carnitas</span>
+                <span class="item-desc">Slow-braised pork, salsa verde, lime</span>
+              </div>
+              <span class="item-price">$4</span>
+            </li>
+            <li class="menu-item featured">
+              <div class="item-info">
+                <span class="item-name">Taco de Birria <span class="badge">Fan Favorite</span></span>
+                <span class="item-desc">Slow-cooked beef, rich consommé for dipping</span>
+              </div>
+              <span class="item-price">$5</span>
+            </li>
+            <li class="menu-item">
+              <div class="item-info">
+                <span class="item-name">Chorizo Taco</span>
+                <span class="item-desc">House-made chorizo, pico de gallo, crema</span>
+              </div>
+              <span class="item-price">$4</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu-category">
+          <h3 class="category-title">
+            <span class="category-icon">🌯</span> Mains
+          </h3>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <div class="item-info">
+                <span class="item-name">Quesadilla</span>
+                <span class="item-desc">Melted cheese, your choice of meat, salsa roja</span>
+              </div>
+              <span class="item-price">$10</span>
+            </li>
+            <li class="menu-item">
+              <div class="item-info">
+                <span class="item-name">Burrito Grande</span>
+                <span class="item-desc">Rice, beans, meat, cheese, sour cream, guac</span>
+              </div>
+              <span class="item-price">$12</span>
+            </li>
+            <li class="menu-item">
+              <div class="item-info">
+                <span class="item-name">Sincronizada</span>
+                <span class="item-desc">Flour tortilla pressed with ham, cheese, jalapeño</span>
+              </div>
+              <span class="item-price">$9</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu-category">
+          <h3 class="category-title">
+            <span class="category-icon">🍲</span> Soups &amp; Sides
+          </h3>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <div class="item-info">
+                <span class="item-name">Pozole</span>
+                <span class="item-desc">Hearty hominy soup, red or green, garnished tableside</span>
+              </div>
+              <span class="item-price">$10</span>
+            </li>
+            <li class="menu-item">
+              <div class="item-info">
+                <span class="item-name">Elote en Vaso</span>
+                <span class="item-desc">Street corn cup, mayo, cotija, chili, lime</span>
+              </div>
+              <span class="item-price">$5</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu-category">
+          <h3 class="category-title">
+            <span class="category-icon">🥤</span> Drinks
+          </h3>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <div class="item-info">
+                <span class="item-name">Agua Fresca</span>
+                <span class="item-desc">Horchata, Jamaica, Tamarindo, Limón — ask for today's flavors</span>
+              </div>
+              <span class="item-price">$3</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOURS & LOCATION -->
+  <section id="hours">
+    <div class="container">
+      <div class="section-label">Find Us</div>
+      <h2 class="section-title">Hours &amp; Location</h2>
+
+      <div class="hours-grid">
+        <div class="hours-card">
+          <div class="hours-icon">🕑</div>
+          <h3>Hours</h3>
+          <div class="hours-table">
+            <div class="hours-row">
+              <span class="day">Monday</span>
+              <span class="time">2:00 PM – 2:00 AM</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Tuesday</span>
+              <span class="time">2:00 PM – 2:00 AM</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Wednesday</span>
+              <span class="time">2:00 PM – 2:00 AM</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Thursday</span>
+              <span class="time">2:00 PM – 2:00 AM</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Friday</span>
+              <span class="time">2:00 PM – 2:00 AM</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Saturday</span>
+              <span class="time">2:00 PM – 2:00 AM</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Sunday</span>
+              <span class="time">2:00 PM – 2:00 AM</span>
+            </div>
+          </div>
+          <p class="hours-note">Open <strong>7 days a week</strong> — including holidays</p>
+        </div>
+
+        <div class="hours-card location-card">
+          <div class="hours-icon">📍</div>
+          <h3>Location</h3>
+          <address>
+            6701 Bay Pkwy<br />
+            Brooklyn, NY 11204
+          </address>
+          <a
+            href="https://maps.google.com/?q=6701+Bay+Pkwy+Brooklyn+NY+11204"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >Get Directions</a>
+          <div class="map-placeholder">
+            <div class="map-pin">📍</div>
+            <p>6701 Bay Pkwy, Brooklyn</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container contact-inner">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">Come Hungry.</h2>
+      <p class="contact-sub">No reservations needed. Walk in, order up, eat well.</p>
+
+      <div class="contact-actions">
+        <a href="tel:+17184158963" class="btn btn-primary btn-large">
+          <span class="btn-icon">📞</span> Call (718) 415-8963
+        </a>
+        <a
+          href="https://maps.google.com/?q=6701+Bay+Pkwy+Brooklyn+NY+11204"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-outline btn-large"
+        >
+          <span class="btn-icon">🗺️</span> Get Directions
+        </a>
+      </div>
+
+      <div class="contact-details">
+        <div class="contact-detail">
+          <strong>Address</strong>
+          <span>6701 Bay Pkwy, Brooklyn, NY 11204</span>
+        </div>
+        <div class="contact-detail">
+          <strong>Phone</strong>
+          <span><a href="tel:+17184158963">(718) 415-8963</a></span>
+        </div>
+        <div class="contact-detail">
+          <strong>Hours</strong>
+          <span>Daily · 2:00 PM – 2:00 AM</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-logo">Taco El Paisa</p>
+      <p class="footer-tagline">Real Tacos. Real Flavor.</p>
+      <p class="footer-copy">© 2026 Taco El Paisa · 6701 Bay Pkwy, Brooklyn, NY 11204</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
